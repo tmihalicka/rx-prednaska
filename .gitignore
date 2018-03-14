@@ -1,0 +1,9 @@
+.idea
+.php_cs.cache
+/bin
+!bin/git
+!bin/static_analysis
+!bin/setup-dev.sh
+/vendor/
+/log/
+/cache

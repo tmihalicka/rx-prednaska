@@ -1,0 +1,28 @@
+{
+  "name": "tmihalicka/php-duration",
+  "description": "PHP implementation of scala Finite duration",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tomas Mihalicka",
+      "email": "tomas@mihalicka.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "react/event-loop": "dev-master",
+    "reactivex/rxphp": "^2.0@dev",
+    "symfony/var-dumper": "4.0.*",
+    "phunkie/phunkie": "0.9.*"
+  },
+  "require-dev": {
+
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "/src"
+    }
+  }
+}
